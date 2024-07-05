@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34723.18
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{24A82A14-029F-457E-8EB0-8712C8108F53}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Persistance", "Persistance", "{CEE42FFC-4966-459A-9AA4-0FB833CB9BCF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{5FB249E6-D157-466F-AF81-2F12C24B9B90}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{DF55FC89-15F7-423C-B881-225DA79109BD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{5545C830-5725-4153-BE95-3C378A9D4B74}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{EB750DF2-797F-4298-AE7F-62E887C1E1A2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EB750DF2-797F-4298-AE7F-62E887C1E1A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB750DF2-797F-4298-AE7F-62E887C1E1A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB750DF2-797F-4298-AE7F-62E887C1E1A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB750DF2-797F-4298-AE7F-62E887C1E1A2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EB750DF2-797F-4298-AE7F-62E887C1E1A2} = {5545C830-5725-4153-BE95-3C378A9D4B74}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5A1E49E9-7A42-48B0-A193-C69879F2C0B0}
+	EndGlobalSection
+EndGlobal
