@@ -1,14 +1,12 @@
 ﻿using Domain.Entities.Abstracts;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace Domain.Entities.Concrets
+namespace Domain.Entities.Concrets;
+
+public class Place:BaseEntity
 {
-    public class Place:BaseEntity
-    {
-        public string? Name { get; set; }
-    }
+    public string? PlaceName { get; set; }
+
+    //Navigation Property
+    public ICollection<Dealership>? Dealerships { get; set; }
+    public ICollection<Seller>? Sellers { get; set; }
 }

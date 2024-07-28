@@ -1,14 +1,8 @@
 ﻿using Domain.Entities.Abstracts;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace Domain.Entities.Concrets
+namespace Domain.Entities.Concrets;
+
+public class Marka:BaseEntity
 {
-    public class Marka:BaseEntity
-    {
-        public string? Name { get; set; }  
-    }
+    public string? MarkaType { get; set; }
 }

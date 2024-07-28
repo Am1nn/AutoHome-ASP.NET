@@ -1,13 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Domain.Entities.Abstracts;
 
-namespace Domain.Entities.Concrets
+namespace Domain.Entities.Concrets;
+
+public class Fuel:BaseEntity
 {
-    public class Fuel
-    {
-        public string? Name { get; set; }
-    }
+    public string? FuelType { get; set; }
 }
