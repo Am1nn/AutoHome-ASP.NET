@@ -9,6 +9,7 @@ public class Seller:BaseEntity
     public string? Password { get; set; }
     public string? RePassword { get; set; }
     public bool? IsVerificated { get; set; } = false;
+    public bool? AllowNews { get; set; } = false;
 
     public string? LogoUrl { get; set; }
 

@@ -10,5 +10,5 @@ public class Marka : BaseEntity
     //Navigation Property
 
     public ICollection<Vehicle>? Vehicles { get; set; }
-
+    public ICollection<Model> ?Models { get; set; }
 }
