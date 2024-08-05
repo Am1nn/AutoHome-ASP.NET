@@ -13,7 +13,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{5545C830-5725-4153-BE95-3C378A9D4B74}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{EB750DF2-797F-4298-AE7F-62E887C1E1A2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "Domain\Domain.csproj", "{EB750DF2-797F-4298-AE7F-62E887C1E1A2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scraping", "Scraping", "{71C4400C-2E3D-49AA-A0F5-2EFA829D1C52}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
